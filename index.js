@@ -20,7 +20,7 @@ var shopify = new Shopify({
   autoLimit: true
 });
 
-app.use("/assets", express.static("assets"));
+app.use("/assets", express.static(__dirname + "/assets"));
 
 app.use(body_parser.json());
 app.use(body_parser.urlencoded({
