@@ -7,7 +7,7 @@ var randomstring = require("randomstring");
 var shopify_creds = require("./shopify-creds");
 
 var app = express();
-var app_port = process.env.PORT || 3000;
+var app_port = process.env.PORT || 8080;
 
 var shop_name = shopify_creds.name;
 var shop_url = `https://${shop_name}.myshopify.com`;
