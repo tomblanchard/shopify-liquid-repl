@@ -1,0 +1,33 @@
+{
+  "name": "shopify-liquid-repl",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently 'nodemon run server --ignore assets' 'npm run js:watch'",
+    "start": "npm run server",
+    "server": "node index.js",
+    "js:watch": "webpack --watch --mode 'development'",
+    "js": "webpack --mode 'production'"
+  },
+  "dependencies": {
+    "@shopify/polaris": "^2.0.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "randomstring": "^1.1.5",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "shopify-api-node": "^2.13.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.3",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}
