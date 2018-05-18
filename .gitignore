@@ -9,4 +9,3 @@ theme.lock
 npm-debug.log
 package-lock.json
 dump.rdb
-shopify-creds.json
