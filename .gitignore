@@ -1,0 +1,12 @@
+.sass-cache
+.DS_Store
+*.css.map
+.ruby-version
+node_modules
+jspm_modules
+bower_components
+theme.lock
+npm-debug.log
+package-lock.json
+dump.rdb
+shopify-creds.json
