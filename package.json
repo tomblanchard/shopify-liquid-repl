@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "concurrently 'nodemon run server --ignore assets' 'npm run js:watch'",
-    "start": "pm2 start index.js",
+    "start": "npm run server",
     "server": "node index.js",
     "js:watch": "webpack --watch --mode 'development'",
     "js": "webpack --mode 'production'"
