@@ -1,6 +1,6 @@
 {
   "name": "shopify-liquid-repl",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "scripts": {
     "dev": "concurrently 'nodemon run server --ignore assets' 'npm run js:watch'",
     "start": "npm run server",
